@@ -7,11 +7,11 @@ function forLoop(array) {
 
 function whileLoop(n) {
   while (n !== 'done') {
-    n--;
     if (n === 0) {
       n = 'done'
     } else{
-      console.log(n)
+      console.log(n);
+      n--;
     }
   }
   return n;
